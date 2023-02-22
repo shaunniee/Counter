@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    flex-direction:column; 
+    align-items: center;
+    justify-content:center;
+    position: relative;
+
+}
+.count{
+    font-size:8rem;
+    background-color: rgb(0, 174, 248);
+    color: white;
+    display: block;
+    border-radius:1rem;
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    font-size:3rem;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    min-width: 130%;
+    transform: translate(-50%, -50%);
+    &__1{
+        display:block;
+        padding:1.5rem 3rem;
+        cursor:pointer;
+        background-color:rgb(245, 193, 193);
+    }
+    &__2{
+        display:block;
+        padding:1.5rem 3rem;  
+        cursor:pointer;
+        background-color:rgb(223, 245, 193);
+      }
+}
